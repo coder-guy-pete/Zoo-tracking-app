@@ -9,27 +9,44 @@ The Zoo tracking app is a management app to keep track of Animals and Employees 
 ## Table of Contents
 
 * [Description](#description)
+* [Dependencies](#dependencies)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
 * [Questions](#questions)
 
+## Dependencies
+
+This project relies on the following dependencies:
+
+* **Inquirer.js:** For interactive command-line interfaces.
+* **TypeScript:** For static type checking.
+
+Please ensure these dependencies are installed before running the project.
+
 ## Installation
 
-This project was created using [TypeScript](https://www.typescriptlang.org/) and [Inquirer](https://www.npmjs.com/package/inquirer). The `package.json` has both of these packages already specified as dev dependencies, and the `tsconfic.json` is properly configured for this project. Simply run `npm install` and the appropriate packages (typeScript and Inquirer) will be installed to your machine.
+**Prerequisites:**
+
+* Node.js and npm (or yarn) installed.
+
+**Steps:**
+
+1. Clone this repository: [Zoo-tracking-app](git@github.com:coder-guy-pete/Zoo-tracking-app.git)
+2. `cd` into your project folder
+3. Install the dependencies by running `npm install`
+4. Start the application by running `npm start`
 
 ## Usage
 
-1. Open the command-line
-2. Clone this repository: [Zoo-tracking-app](git@github.com:coder-guy-pete/Zoo-tracking-app.git)
-3. `cd` into your project folder
-4. Install the dependencies by running `npm install`
-5. Start the application by running `npm start`
+### Zoo Tracking Application Demo
+
+![Gif of the application](./assets/Zoo-tracking-app_demo.gif)
 
 ### Core Functionality
 
-* Add new Animals or Employees: Running either of the `Add` commands will allow you to add a new animal or employee respectively
+* Add Animals or Employees: Running either of the `Add` commands will allow you to add a new animal or employee respectively
 * See list of Animals or Employees: Similarly the `See` command will render a list
 * Feed Animals: `Feed` will allow you to feed all of the hungry animals
 * Pay Employee: `Pay` will allow you to select one employee to give money to
